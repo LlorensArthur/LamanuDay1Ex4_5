@@ -7,8 +7,10 @@
     { "F5", "Dégâts incroyables : les maisons sont rasées ou projetées sur de grandes distances. Les tornades F5 peuvent causer des dommages très importants à de grosses structures telles que les écoles et les motels et peuvent arracher les murs extérieurs et les toits (parfois surnommé « le doigt de Dieu »." },
 };
 string input = "";
+// Saisie utilisateur
 Console.WriteLine("Veillez renseigner le type de tornade.");
 input = Console.ReadLine();
+// Affichage de la liste selon la saisie utilisateur
 for (int i = 0; i < tornadeList.Length; i++)
 {
     if (input == tornadeList[i,0])
